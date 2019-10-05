@@ -1,1 +1,141 @@
+<!DOCTYPE HTML>
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Our style sheet -->
+    <link rel="stylesheet" href="src/css/styles.css">
+
+    <title> Cafe Presse </title>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm" aria-label="Menubar">
+        <div class="container-fluid">
+            <a class='navbar-brand' href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="dark-blue-text"><i class="navbar-toggler-icon"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+                <ul class="navbar-nav" id="menubar1" role="menubar" class="nav navbar-nav"
+                    aria-label="Mythical University">
+                    <li class="nav-item active">
+                        <a role="menuitem" class="nav-link" href="index.html" tabindex="0">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a role="menuitem" class="nav-link" href="about.html" tabindex="-1">
+                            About
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a role="menuitem" class="nav-link" href="menus.html" tabindex="-2">
+                            Menus
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a role="menuitem" class="nav-link" href="events.html" tabindex="-3">
+                            Events
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a role="menuitem" class="nav-link" href="contact.html" tabindex="-4">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <!-- hero -->
+    <section class="bgimage">
+        <div class='container-fluid'>
+            <div class="row justify-content-center animated fadeIn slow">
+                <div class="col-auto">
+                    <img class="img-fluid rounded" src="./imgs/Cafe-Presse-logo-2-transparent.png" height="300"
+                        width="400" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <h2 class="justify-content-center">French Bar & Cafe<br><br></h2>
+                    <p class="hero">OPEN DAILY <br> 8AM TO 1AM <br><br></p>
+                </div>
+            </div>
+
+            <!-- CTA's -->
+            <div class="row pt-2 pb-5 mb-5" id="home-cta">
+                <div class="col-sm-3">
+                    <p><a href="contact.html" class="btn btn-outline-dark btn-lg">Reservations »</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <p><a href="menus.html#vinexpress" class="btn btn-outline-dark btn-lg"> &nbsp; Happy Hour
+                            »</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <p><a href="events.html" class="btn btn-outline-dark btn-lg">&nbsp; &nbsp; Soccer » &nbsp;
+                            &nbsp;</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class='container'>
+            <div class="row justify-content-md-center pt-5">
+                <div class="col-auto">
+                    <div class="text-center">
+                        <a href="https://www.facebook.com/Caf%C3%A9-Presse-116501908374109/"><img class="image-fluid"
+                                src="imgs/png/Facebook.png" height="25" width="35" alt="">
+                            &nbsp;</a>
+                        <a href="https://twitter.com/cafepressewa?lang=en"><img class="image-fluid"
+                                src="imgs/png/Twitter.png" height="25" width="35" alt="">
+                            &nbsp;</a>
+                        <a href="https://www.instagram.com/cafepresseseattle/"><img class="image-fluid"
+                                src="imgs/png/Instagram.png" height="25" width="35" alt="">
+                            &nbsp;</a>
+                        <a href="mailto:"><img class="image-fluid" src="imgs/png/Email.png" height="25" width="35"
+                                alt="">
+                            &nbsp;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright 2019 Hannah + Arianna</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
